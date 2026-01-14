@@ -1,7 +1,3 @@
-Claro que sí. Aquí tienes la documentación de la **Celda 1** formateada estrictamente en Markdown.
-
-***
-
 ### 1. Inicialización de Contexto e Ingesta de Fuentes de Datos
 
 **Objetivo del Bloque:**
