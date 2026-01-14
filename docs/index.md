@@ -1,3 +1,9 @@
+---
+layout: default
+title: Inicialización de Contexto
+---
+
+
 ### 1. Inicialización de Contexto e Ingesta de Fuentes de Datos
 
 **Objetivo del Bloque:**
