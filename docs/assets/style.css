@@ -31,7 +31,7 @@ body {
    2.3 Header
 ========================= */
 .header {
-    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    background: linear-gradient(135deg, #ab3bf6 0%, #9225eb 100%);
     padding: 30px;
     color: white;
 }
@@ -58,7 +58,7 @@ body {
    2.5 Encabezados
 ========================= */
 h2 {
-    color: #60a5fa;
+    color: #9225eb;
     font-size: 24px;
     margin: 30px 0 15px 0;
     padding-bottom: 8px;
@@ -70,13 +70,13 @@ h2:first-child {
 }
 
 h3 {
-    color: #93c5fd;
+    color: #9681f1;
     font-size: 20px;
     margin: 25px 0 12px 0;
 }
 
 h4 {
-    color: #bfdbfe;
+    color: #9681f1;
     font-size: 17px;
     margin: 20px 0 10px 0;
 }
@@ -89,7 +89,8 @@ p {
     color: #d4d4d8;
 }
 
-ul, ol {
+ul,
+ol {
     margin-left: 25px;
     margin-bottom: 15px;
     color: #d4d4d8;
@@ -99,7 +100,8 @@ li {
     margin-bottom: 8px;
 }
 
-strong, b {
+strong,
+b {
     color: #fbbf24;
     font-weight: 600;
 }
@@ -107,11 +109,8 @@ strong, b {
 /* =========================
    2.7 Código Inline
 ========================= */
+/* Code default reset */
 code {
-    background: #1e1e1e;
-    color: #ce9178;
-    padding: 2px 6px;
-    border-radius: 4px;
     font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
     font-size: 14px;
 }
@@ -119,50 +118,84 @@ code {
 /* =========================
    2.8 Bloques de Código
 ========================= */
+pre,
 .code-block {
-    background: #1e1e1e;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    overflow-x: auto;
-    border: 1px solid #3f3f46;
-    position: relative;
-}
-
-.code-block::before {
-    content: 'CODE';
-    position: absolute;
-    top: 8px;
-    right: 12px;
-    background: #3f3f46;
-    color: #a1a1aa;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-pre {
-    margin: 0;
+    background: #0d1117;
+    /* Fondo negro profundo (estilo GitHub Dark) */
+    color: #e6edf3;
+    /* Texto blanco legible */
     font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
     font-size: 14px;
-    line-height: 1.5;
-    color: #d4d4d8;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 12px;
+    /* Bordes más redondeados */
+    border: 1px solid #30363d;
+    /* Borde sutil */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    /* Sombra para efecto "frame" */
+    overflow-x: auto;
+    margin: 25px 0;
+}
+
+code {
+    font-family: inherit;
+    color: inherit;
+    /* Hereda el blanco del pre */
+}
+
+/* Inline code (fuera de bloques) */
+p>code,
+li>code {
+    background: #36363c;
+    color: #ffAB70;
+    /* Naranja suave/Pastel (Apple Style) */
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    border: 1px solid #484850;
 }
 
 /* =========================
-   3. JSON Syntax
+   3. Highlight Syntax (Apple/Xcode Dark Inspired)
 ========================= */
-.json-key { color: #9cdcfe; }
-.json-string { color: #ce9178; }
-.json-number { color: #b5cea8; }
-.json-boolean { color: #569cd6; }
-.json-null { color: #569cd6; }
-.json-bracket { color: #ffd700; }
+
+/* Strings (Cadenas - Rojo/Coral suave) */
+pre .s2,
+pre .s1,
+.json-string {
+    color: #fbbf24;
+}
+
+/* Numbers (Números - Azul Claro Pastel) */
+pre .mi,
+.json-number {
+    color: #9681f1;
+}
+
+/* Keywords/Booleans (Rosa/Violeta suave) */
+pre .kc,
+pre .k,
+.json-boolean {
+    color: #d4bfff;
+}
+
+/* Keys (Cian/Verde Menta suave) */
+pre .nl {
+    color: #9681f1;
+}
+
+/* Comments (Gris cálido) */
+pre .c1,
 .json-comment {
-    color: #6a9955;
+    color: #8590a5;
     font-style: italic;
+}
+
+/* Punctuation (Blanco apagado) */
+pre .p,
+.json-bracket {
+    color: #d4d4d4;
 }
 
 /* =========================
@@ -202,9 +235,9 @@ table {
 th {
     background: #3f3f46;
     color: #60a5fa;
+    font-weight: 600;
     padding: 12px;
     text-align: left;
-    font-weight: 600;
 }
 
 td {
