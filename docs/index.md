@@ -10,8 +10,9 @@ title: Documentación
 ## Documentacion Desarrollada
 
 - [Especificaciones OpenClose SmartPedidos](./documentacion_opencloselogs.md)
+- [Especificaciones news SmartPedidos](./documentacion_news.md)
 
-- ## README
+## README
 
 - [Readme IA](./Readme_IA.md)
 
