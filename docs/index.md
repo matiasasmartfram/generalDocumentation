@@ -11,7 +11,9 @@ title: Documentación
 
 - [Especificaciones OpenClose SmartPedidos](./documentacion_opencloselogs.md)
 - [Especificaciones news SmartPedidos](./documentacion_news.md)
+- [Especificaciones Flujo Orden ThirdParty SmartPedidos](./documentacion_flujo_orden_thirdparty.md)
 
+  
 ## README
 
 - [Readme IA](./Readme_IA.md)
