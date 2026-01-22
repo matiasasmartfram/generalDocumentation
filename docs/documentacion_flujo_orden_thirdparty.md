@@ -94,8 +94,8 @@ graph TD
     DEC -- SÍ (Terminal) --> FIN
     DEC -- NO (No es Terminal) --> H
     
-    %% Bucle de retorno
-    H -.->|Vuelve al paso 4 (Bucle)| D
+    %% Bucle de retorno (CORREGIDO CON COMILLAS)
+    H -.->|"Vuelve al paso 4 (Bucle)"| D
 
     %% Estilos (Violeta y Dorado según tu guía)
     classDef default fill:#fff,stroke:#333,stroke-width:1px,color:#333;
