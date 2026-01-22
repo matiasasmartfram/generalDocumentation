@@ -65,32 +65,54 @@ El ciclo se detiene cuando la `news` alcanza un estado que no requiere más inte
 
 **1. API POST: Third Party**
 (ej. Pedigrido)
+
 ↓
+
 **2. Controlador API**
 Transforma a `news` (typeId: 1)
+
 ↓
+
 **3. Base de Datos (MongoDB)**
 Guarda la `news` inicial
+
 ↓
+
 **4. SQS (Cola del POS)**
 `pushNewToQueue()` envía la orden al local
+
 ↓
+
 **5. Punto de Venta (POS)**
 Personal actúa y cambia el `typeId`
+
 ↓
+
 **6. SQS (Cola Central)**
 POS envía la `news` actualizada
+
 ↓
+
 **7. Plataforma de Servicios**
 `pollFromQueue()` → `SetNews` → **Estrategia**
 
-*   **SI ES ESTADO TERMINAL**
+↓
+
+**¿Es Estado Terminal?**
+
+*   **SÍ (Es Terminal):**
+    
     ↓
+    
     **FIN DEL CICLO**
 
-*   **SI NO ES ESTADO TERMINAL**
+*   **NO (No es Terminal):**
+    
     ↓
+    
     **8. Base de Datos (MongoDB)**
     Actualiza `news` con nuevo `trace`
-    ↑
-    **Vuelve al paso 4 (Bucle)**
+    
+    ↓
+    
+    **↑ Vuelve al paso 4 (Bucle)**
