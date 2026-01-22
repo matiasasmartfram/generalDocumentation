@@ -12,9 +12,7 @@ Este documento actúa como un contenedor unificado que almacena la información 
 
 ---
 
-## **🏗️ Estructura Jerárquica del Documento**
-
----
+# **🏗️ Estructura Jerárquica del Documento**
 
 ## **📖 Definición Detallada de Atributos**
 
