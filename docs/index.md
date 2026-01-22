@@ -13,7 +13,7 @@ title: Documentación
 - [Documentacion Formato news SmartPedidos](./documentacion_news.md)
 - [Documentacion Flujo Orden ThirdParty SmartPedidos](./documentacion_flujo_orden_thirdparty.md)
 - [Documentacion CanjeApp SmartAnalitycs](./documentacion_canjeapp_bi.md)
-- [Documentacion CanjeApp Integracion Terceros](./documentacion_canjeapp_interno.md)
+- [Documentacion CanjeApp Integracion Terceros](./documentacion_canjeapp_terceros.md)
 - [Documentacion CanjeApp SmartFranOP SmartCloud](./documentacion_canjeapp_interno.md)
 - [Documentacion Motivos de Rechazo SmartPedidos](./documentacion_motivos_de_rechazo.md)
 - [Documentacion Integracion ThirdParty SmartPedidos](./documentacion_integracion_thirdparty.md)
