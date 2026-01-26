@@ -22,6 +22,7 @@ title: Documentación
 - [Documentacion Motivos de Rechazo SmartPedidos](./documentacion_motivos_de_rechazo.md)
 - [Documentacion Integracion ThirdParty SmartPedidos](./documentacion_integracion_thirdparty.md)
 - [Documentacion Formato Promociones SmartPedidos](./documentacion_formato_promociones.md)
+- [Documentacion PedidosYa COD Cash Collection](./documentacion_formato_promociones.md)
 
 ## README
 
