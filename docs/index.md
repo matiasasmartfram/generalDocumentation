@@ -23,7 +23,8 @@ title: Documentación
 - [Documentacion Integracion ThirdParty SmartPedidos](./documentacion_integracion_thirdparty.md)
 - [Documentacion Formato Promociones SmartPedidos](./documentacion_formato_promociones.md)
 - [Documentacion PedidosYa COD Cash Collection](./documentacion_pedidosya_COD.md)
-- [Documentacion Catalog v2](./documentacion_catalog_v2.md)
+- [Documentacion OpenClose Pedigrido](./documentacion_openclose_Pedigrido.md)
+- 
 
 ## README
 
