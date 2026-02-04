@@ -6,6 +6,7 @@ title: Documentación
 ## Especificaciones Para Desarrollo
 
 - [Especificaciones Catalogo SmartPedidos - SmartCloud](./especificaciones_catalog.md)
+- [Especificaciones Catalogo SmartPedidos - SmartCloud](./documentacion_catalog_v2.md)
 
 ## Documentacion Desarrollada
 
