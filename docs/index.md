@@ -28,6 +28,7 @@ title: Documentación
 - [Documentacion OpenClose openClosedLogs](./documentacion_openclose_opencloselogs.md)
 - [Documentacion OpenClose Terceros](./documentacion_openclose_terceros.md)
 - [Documentacion orderRejClosed](./documentacion_orderRejClosed.md)
+- [Documentacion Tipo de Delivery Interno](./documentacion_deliveryType_interno.md)
 
 
 ## README
