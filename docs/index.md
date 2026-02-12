@@ -29,6 +29,7 @@ title: Documentación
 - [Documentacion OpenClose Terceros](./documentacion_openclose_terceros.md)
 - [Documentacion orderRejClosed](./documentacion_orderRejClosed.md)
 - [Documentacion Tipo de Delivery Interno](./documentacion_deliveryType_interno.md)
+- [Documentacion Formato Logs Communication Error Plataformas](./documentacion_formato_logs_comunicacion.md)
 
 
 ## README
