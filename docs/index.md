@@ -30,6 +30,7 @@ title: Documentación
 - [Documentacion orderRejClosed](./documentacion_orderRejClosed.md)
 - [Documentacion Tipo de Delivery Interno](./documentacion_deliveryType_interno.md)
 - [Documentacion Formato Logs Communication Error Plataformas](./documentacion_formato_logs_comunicacion.md)
+- [Documentacion Funcionalidad OrderPickedUp](./documentacion_orderPickedUp_interno.md)
 
 
 ## README
